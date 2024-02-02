@@ -1,0 +1,11 @@
+# Bandit  - Level 0
+
+## Problem Statement
+
+We just need to connect 
+
+## Solution
+
+So, you only need to know how to connect with ssh which basic syntax for that:
+
+ssh username@host -p [port number]
