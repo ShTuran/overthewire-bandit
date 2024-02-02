@@ -8,4 +8,4 @@ We just need to connect
 
 So, you only need to know how to connect with ssh which basic syntax for that:
 
-ssh username@host -p [port number]
+** ssh username@host -p [port number] **
