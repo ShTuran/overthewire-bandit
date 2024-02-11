@@ -28,7 +28,11 @@ You have to read the file named **readme**
 
 You have to read the file named **-** , use full path instead of just `cat -`.
 
-  `cat ./-`
+  `cat ./-`   
+  
+  or 
+  
+  `cat < -`
 
 # Level 2->3
 
