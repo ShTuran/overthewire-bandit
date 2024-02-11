@@ -54,6 +54,7 @@ after  `cd inhere`
 use `ls -la` 
 
 `l` - will give detailed info about each file/folder
+
 `a` - will show the hidden files
 
 
