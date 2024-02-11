@@ -32,6 +32,6 @@ You have to read the file named **-**
 
 # Level 2->3
 
-You have to read the file named **-**, use full path instead of just `cat -`.
+You have to read the file named **-** , use full path instead of just `cat -`.
 
   `cat ./-'
