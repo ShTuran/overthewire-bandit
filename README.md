@@ -26,12 +26,12 @@ You have to read the file named **readme**
 
 # Level 1->2
 
-You have to read the file named **-** 
+You have to read the file named **-** , use full path instead of just `cat -`.
 
   `cat ./-`
 
 # Level 2->3
 
-You have to read the file named **-** , use full path instead of just `cat -`.
+You have to read the file named **-** 
 
   `cat ./-'
