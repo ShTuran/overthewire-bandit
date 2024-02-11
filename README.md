@@ -28,7 +28,7 @@ You have to read the file named **readme**
 
 You have to read the file named **-** 
 
-  `cat ./-'
+  `cat ./-`
 
 # Level 2->3
 
