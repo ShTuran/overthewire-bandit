@@ -10,9 +10,9 @@ To start playing the Bandit game, visit OverTheWire Bandit. You can connect to t
 
 Replace bandit0 with the appropriate level number as you progress through the game.
 
-# Repository Structure
+# Spoiler alert
 
-Write-ups explaining the thought process behind each solution are included.
+Write-up solutions are included, NOT flags!
 
 ## This repository is intended for educational purposes only. Do not use the solutions provided here to cheat or undermine the learning experience.
 ## Highly recommended use Google and understand what each command do!
