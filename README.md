@@ -47,13 +47,14 @@ File named with spaces, oh jezz:
 
 # Level 3->4
 
-File named with spaces, oh jezz:
+Hidden directories will not show up with simple `ls`
 
-  `cat spaces\ in\ this\ filename`
+after  `cd inhere`
 
-  or 
+use `ls -la` 
 
-  `cat 'spaces in this filename'`
+`l` - will give detailed info about each file/folder
+`a` - will show the hidden files
 
 
 # Level 4->5
