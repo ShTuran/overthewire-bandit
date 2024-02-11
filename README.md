@@ -15,3 +15,10 @@ Replace bandit0 with the appropriate level number as you progress through the ga
 Write-ups explaining the thought process behind each solution are included.
 
 ## This repository is intended for educational purposes only. Do not use the solutions provided here to cheat or undermine the learning experience.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Level 0->1
+
+You have to read the file named **readme**
+  `cat readme`
