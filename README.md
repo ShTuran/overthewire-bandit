@@ -20,5 +20,6 @@ Write-ups explaining the thought process behind each solution are included.
 
 # Level 0->1
 
-You have to read the file named **readme** /n
+You have to read the file named **readme** 
+
   `cat readme`
