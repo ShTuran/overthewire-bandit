@@ -36,6 +36,10 @@ You have to read the file named **-** , use full path instead of just `cat -`.
 
 # Level 2->3
 
-You have to read the file named **-** 
+File named with spaces, oh jezz:
 
-  `cat ./-'
+  `cat spaces\ in\ this\ filename`
+
+  or 
+
+  `cat 'spaces in this filename'`
