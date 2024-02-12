@@ -129,11 +129,17 @@ and file size:
 c is for the bytes
 
 Side note: 
+
     b – for 512-byte blocks (this is the default if no suffix is used)
+    
     c – for bytes
+    
     w – for two-byte words
+    
     k – for Kilobytes (units of 1024 bytes)
+    
     M – for Megabytes (units of 1048576 bytes)
+    
     G – for Gigabytes (units of 1073741824 bytes)
 
 and the text mentioned that file is not executable, so:
