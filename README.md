@@ -95,13 +95,56 @@ which they both will return the same thing.
 
 # Level 5->6
 
-File named with spaces, oh jezz:
+*Note that, your solution may differ.*
 
-  `cat spaces\ in\ this\ filename`
+We will try to 'find' a file with specific attributes:
 
-  or 
+Did I just used the word 'find'...
 
-  `cat 'spaces in this filename'`
+So, `find` command will be useful.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Since we are searching for human-readable file using:
+
+`grep ASCII`
+
+grep will search for specific pattern defined by the user.
+
+
+`|` will take first command output and inputs to the second command.
+
+
+In previous task, we got that '.' is our current directory:
+
+`find .`
+
+and we wanna that we are searching for a file, so:
+
+`find . -type f`
+
+and file size:
+
+`-size 1033c`
+
+c is for the bytes
+
+Side note: 
+    b – for 512-byte blocks (this is the default if no suffix is used)
+    c – for bytes
+    w – for two-byte words
+    k – for Kilobytes (units of 1024 bytes)
+    M – for Megabytes (units of 1048576 bytes)
+    G – for Gigabytes (units of 1073741824 bytes)
+
+and the text mentioned that file is not executable, so:
+
+`! -executable`
+
+finally:
+
+`grep ASCII | find . -type f -size 1033c ! -executable`
+
 
 
 # Level 6->7
