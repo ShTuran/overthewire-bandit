@@ -68,6 +68,8 @@ instead we can use:
 
 command to determine what kind of files are there:
 
+Note that,  __ASCII__ or __Unicode__ probably will be our needed file.
+
 and one more thing 
 
 use:  
@@ -83,6 +85,12 @@ this
 so, final command:
 
 `file ./-file*`
+
+or just use:
+
+`file ./*`
+
+which they both will return the same thing.
  
 
 # Level 5->6
