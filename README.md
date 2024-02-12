@@ -72,17 +72,17 @@ and one more thing
 
 use:  
 
-  `./file*` 
+  `./-file*` 
 
 this 
 
 .  -> is our current directory
 
-file* -> will find the files start with word 'file'  and  '*' -> match zero or more of the preceding character
+-file* -> will find the files start with word '-file'  and  '*' -> match zero or more of the preceding character
 
 so, final command:
 
-`file ./file*`
+`file ./-file*`
  
 
 # Level 5->6
