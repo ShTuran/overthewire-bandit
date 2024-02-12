@@ -104,22 +104,21 @@ Did I just used the word 'find'...
 So, `find` command will be useful.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Since we are searching for human-readable file using:
 
-Since we are searching for human-readable file using:
+  `grep ASCII`
 
-`grep ASCII`
+  grep will search for specific pattern defined by the user.
 
-grep will search for specific pattern defined by the user.
+  `|` will take first command output and inputs to the second command.
 
-
-`|` will take first command output and inputs to the second command.
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 In previous task, we got that '.' is our current directory:
 
 `find .`
 
-and we wanna that we are searching for a file, so:
+and we since we are searching for a file, so:
 
 `find . -type f`
 
