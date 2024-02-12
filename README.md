@@ -60,14 +60,29 @@ use `ls -la`
 
 # Level 4->5
 
-File named with spaces, oh jezz:
+File is only human-readable and there are a lot of files in the directory, so reading them one by one will not be efficient, 
 
-  `cat spaces\ in\ this\ filename`
+instead we can use:
 
-  or 
+  `file` 
 
-  `cat 'spaces in this filename'`
+command to determine what kind of files are there:
 
+and one more thing 
+
+use:  
+
+  `./file*` 
+
+this 
+
+.  -> is our current directory
+file* -> will find the files start with word file and match zero or more of the preceding character
+
+so, final command:
+
+`file ./file*`
+ 
 
 # Level 5->6
 
