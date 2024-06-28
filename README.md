@@ -181,8 +181,9 @@ I suggest to read about "grep" command which is helpful to search within the fil
 
 # Level 10->11
 
+To decode the data which encoded with base64
 
-
+`base64 -d data.txt`
 
 # Level 11->12
 
