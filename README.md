@@ -154,23 +154,30 @@ finally:
 
 # Level 6->7
 
+This was relatively simple, that's why here is direct command we have to use:
+
+`find / -type f -user bandit7  -group bandit6 -size 33c`
 
 
 
 # Level 7->8
 
+I suggest to read about "grep" command which is helpful to search within the file.
 
-
+`grep "millionth" data.txt`
 
 # Level 8->9
 
+`sort` command will give alphabeticly order
+`uniq -c` command will show how many times they are repeated
 
-
+`sort data.txt | uniq -c` 
 
 # Level 9->10
 
+`strings` - print the sequences of printable characters in files
 
-
+`strings data.txt | grep "===="`
 
 # Level 10->11
 
