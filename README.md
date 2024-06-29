@@ -187,21 +187,64 @@ To decode the data which encoded with base64
 
 # Level 11->12
 
+Here you can use CyberChef to decode the ROT13
+
+But if you prefer to use CLI:
+
+`cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'`
+
+The tr command in Unix-based systems is used for translating or deleting characters. 
+
+`tr 'SET1' 'SET2'`
+
+    SET1 is the list of characters to be replaced.
+    SET2 is the list of characters to replace them with.
 
 
 # Level 12->13
 
+create a directory under /tmp and then copy the 'data.txt' file here
+
+`xxd` - make a hex dump or do the reverse.
+
+`xxd -r data.txt > data1.txt`
+
+And when we view the file it is a - gzip compressed data
+
+change the extension of 'data.txt' to 'data.gz'
+
+`gzip -d data.gz`
+
+And when we view the file it is a - bzip compressed data
+
+change the extension of 'data.txt' to 'data.bz2'
+
+`bzip2 -d data.gz`
+
+ after that file will be in --- data: POSIX tar archive (GNU)
+
+ change the extension to '.tar'
+
+ then 
+
+ `tar -xf data.tar`
+
+ IT WILL REPEATED PROCESS which mentioned above
 
 
 # Level 13->14
 
+If we want to login via the key, will use -i flag. 
 
-
+`ssh -i sshkey.private bandit14@localhost -p 2220`
 
 # Level 14->15
 
+Here we can use various commands but I think `nc` is the nicest choice
 
+`nc localhost 30000`
 
+after that copy the password which we got in the previous level in directory of   `/etc/bandit_pass/bandit14`
 
 # Level 15->16
 
