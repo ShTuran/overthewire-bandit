@@ -248,20 +248,42 @@ after that copy the password which we got in the previous level in directory of 
 
 # Level 15->16
 
-
+`ncat --ssl localhost 30001` after that command we need to paste the password of level 15.
 
 # Level 16->17
 
+First let's use `nmap` to listen ports between [31000-32000]
 
+`nmap -p 31000-32000 --script=ssl-cert localhost`
+
+once we found out what port number is using ssl
+
+`ncat --ssl locahost [port-number]`
+
+paste your previous answer in here..
+
+then you will get the key 
+
+after copying the file -  give it appropriate [400] permissions to work.
+
+which, if you use `-i` while connecting ssh it will pass you next level 
 
 
 # Level 17->18
 
+`ssh -t  bandit18@bandit.labs.overthewire.org -p 2220 /bin/sh`
 
+ssh -t: This initiates an SSH connection. The -t option forces pseudo-terminal allocation, which can be useful if you need to run an interactive command on the remote server.
+
+/bin/sh: This specifies the command to run on the remote server after the connection is established. /bin/sh is the command for a basic shell, which will allow you to interact with the server’s command line.
+
+and then paste the previous password; you will get a shell
+
+read the `readme` file which contains password.
 
 # Level 18->19
 
-
+It is related with : Level 17->18
 
 
 # Level 19->20
