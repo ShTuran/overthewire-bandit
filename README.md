@@ -276,6 +276,16 @@ which, if you use `-i` while connecting ssh it will pass you next level
 
 # Level 17->18
 
+`diff passwords.old passwords.new`
+
+but we will not be able to get in.
+
+Go to the next level and read it!
+
+# Level 18->19
+
+It is related with : Level 17->18
+
 `ssh -t  bandit18@bandit.labs.overthewire.org -p 2220 /bin/sh`
 
 ssh -t: This initiates an SSH connection. The -t option forces pseudo-terminal allocation, which can be useful if you need to run an interactive command on the remote server.
@@ -284,21 +294,29 @@ ssh -t: This initiates an SSH connection. The -t option forces pseudo-terminal a
 
 and then paste the previous password; you will get a shell
 
-read the `readme` file which contains password.
-
-# Level 18->19
-
-It is related with : Level 17->18
+read the `readme` file which contains password for the level 19.
 
 
 # Level 19->20
 
+If you execute the file without any argument, it shows how to use it.
+And, if you type any command after the executable, it will run it as owner of it
 
+`./bandit20 cat /etc/bandit_pass/bandit20`
+
+
+# Level 20->21
+
+Here, we need to open 2 session on the same level.
+
+In one terminal type `cat /etc/bandit_pass/bandit20 | nc -l localhost 7777` -> in this terminal you will get the password.
+
+In another terminal type `./suconnect 7777`
 
 
 # Level 21->22
 
-
+This was relatively simple, you just need go to the necessary directory and see the inside of cron jobs.
 
 
 # Level 22->23
@@ -320,8 +338,8 @@ It is related with : Level 17->18
 
 
 
-
 # Level 26->27
+
 
 
 
@@ -334,7 +352,6 @@ It is related with : Level 17->18
 
 
 
-
 # Level 29->30
 
 
@@ -342,12 +359,9 @@ It is related with : Level 17->18
 # Level 30->31
 
 
-
 # Level 31->32
 
-
 # Level 32->33
-
 
 
 # Level 33->34
